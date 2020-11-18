@@ -2,9 +2,9 @@
   "name": "maptu",
   "version": "1.0.0",
   "description": "",
-  "main": "locations.js",
+  "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d MapTU"
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,4 @@
   "homepage": "https://Arya1011.github.io/mapTU",
   "dependencies": {
     "gh-pages": "^3.1.0"
-  }
-}
+  }}
