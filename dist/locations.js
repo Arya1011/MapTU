@@ -106,8 +106,8 @@ function degtoRad(value){
 //Calculating Havestine Distance
 function calcCrowDist(lat1,long1,lat2,long2){
         var R=6371000;  //distance in km
-        var dlat=degtoRad(Math.abs(lat2-lat1));
-        var dlong=degtoRad(Math.abs(long2-long1));
+        var dlat=degtoRad(lat2-lat1);
+        var dlong=degtoRad(long2-long1);
         lat1=degtoRad(lat1);
         lat2=degtoRad(lat2);
         var a=Math.sin(dlat/2)*Math.sin(dlat/2)+Math.cos(lat1)*Math.cos(lat2)*Math.sin(dlong/2)*Math.sin(dlong/2);
@@ -221,7 +221,7 @@ function addLinesAndMarkers(route)
         }
         else
         {
-            distText=Math.floor(dist/1000).toFixed(1) + ' km';
+            distText=(dist/1000).toFixed(1) + ' km';
         }
 
         //Render the polylines
