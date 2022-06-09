@@ -12,5 +12,12 @@ var locations = [
 ...
 ]
 ```
-where the ```children``` refers to nodes which can be joined from the source node using a straight line path. ```x``` and ```y``` refers to the latitude and longitude of the place.
+![mapTU_gif](https://user-images.githubusercontent.com/54039704/172889043-a9af1a8a-0e39-4fab-97f4-5e6bc94ca0df.gif)
+
+The ```children``` refers to nodes which can be joined from the source node using a straight line path. ```x``` and ```y``` refers to the latitude and longitude of the place
+
 #### No preprocessing of data is being done here. Nodes are manually added.
+
+
+
+
