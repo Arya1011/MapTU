@@ -16,6 +16,17 @@ var locations = [
 
 The ```children``` refers to nodes which can be joined from the source node using a straight line path. ```x``` and ```y``` refers to the latitude and longitude of the place
 
+![bellman algo](https://user-images.githubusercontent.com/54039704/173008574-81e1a2c2-019d-4399-b671-321f6a04a8fd.jpg)
+
+#### Sources of error in the project
+
+![errors](https://user-images.githubusercontent.com/54039704/173008695-63d8e42e-de01-4d7b-88cd-cad3255f87c4.jpg)
+
+#### Possible enhancements
+
+![enhancements](https://user-images.githubusercontent.com/54039704/173008736-0c4761bf-a462-4412-8d3c-6af6ee2a8fe7.jpg)
+
+
 #### No preprocessing of data is being done here. Nodes are manually added.
 
 
